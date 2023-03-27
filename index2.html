@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index2.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="">
+        <div class="contacts-div screen active">
+            <div class="div-contacts">
+                <div class="contacts-search-div">
+                    <input type="text" id="contacts-search-box" placeholder="Search">
+                    <button id="search-button">SEARCH</button>
+                </div>
+                <div class="contacts">
+                    <h2>CONTACTS</h2>
+                </div>
+                <div class="conacts-Names-Borders">
+                    <div class="contacts-Names" id="names-div">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- <h2>Hi Chat App</h2> -->
+        <div class="app">
+            <div class="user-login-message-div">
+                <!-- <div class="user-login screen active">
+                    <label for="user-name"><h4>User Name</h4></label>
+                    <input type="text" id="user-name" placeholder="User_Name">
+                    <input type="text" id="mobile-number" placeholder="Mobile_Number">
+                    <button id="button-save" onclick="save_Button_Function()">SAVE</button>
+                </div> -->
+                <div class="user-message-container screen active">
+                    <div class="user-message"></div>
+                    <div class="message-send ">
+                        <input type="text" id="message-input">
+                        <button id="send-button" onclick="send_Button_Function()">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="contacts-save-div">
+            <div class="user-login screen active">
+                <!-- <label for="user-name"><h4>User Name</h4></label> -->
+                <input type="text" id="user-name" placeholder="User_Name">
+                <input type="text" id="mobile-number" placeholder="Mobile_Number">
+                <button id="button-save" onclick="save_Button_Function()">SAVE</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>

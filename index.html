@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/index.css">
+    <title>WatsApp</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="wats-App">
+
+            <div class="form not-show show">
+
+                <div class="form-input">
+                    <input type="text" id="user-name-login" placeholder="User_Name">
+                    <input type="text" id="mobile-number-login" placeholder="Mobile_Number">
+                    <button id="button-save-login" onclick="save_Login_Button_Function()">Login</button>
+                    <p class="ptag not-show">Please Enter 10 Digit Mobile_Number</p>
+                </div>
+
+            </div>
+
+            <div class="chatting-page not-show">
+
+                <div class="contacts-div screen active">
+                    <div class="div-contacts">
+                        <div class="contacts-search-div">
+
+                            <button class="Icons-Buttons" onclick="show_saving_contacts()"> <i class="fa-solid fa-user-plus Select-Add-Contacts not-show-ID-Add-Contacts-Icons show-ID-Add-Contacts-Icons" id="ID-Add-Contacts-Icons"></i> <i class="fa-sharp fa-solid fa-xmark Select-IN-To not-show-IN-To-Button" id="IN-To-Button"></i> </button>
+                            <input type="text" id="contacts-search-box" placeholder="Search">
+                            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                            <button id="search-button" class="Search-Button"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+
+                        </div>
+                        <div class="contacts">
+                            <!-- <h2>CONTACTS</h2> -->
+                        </div>
+                        <div class="conacts-Names-Borders">
+                            <div class="contacts-Names" id="names-div">
+                            
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="app">
+                    <div class="user-login-message-div">
+    
+                        <div class="user-message-container screen active">
+                            <div class="user-message"></div>
+                            <div class="message-send ">
+                                <input type="text" id="message-input">
+                                <button id="send-button" onclick="send_Button_Function()">Send</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="contacts-save-div">
+                    <div class="Border not-show-save-contacts">
+                        <input type="text" id="user-name" placeholder="User_Name">
+                        <input type="text" id="mobile-number" placeholder="Mobile_Number">
+                        <button id="button-save" onclick="save_Button_Function()">SAVE</button>
+                    </div>
+                </div>
+
+
+            </div>
+            
+        </div>
+     
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="server.js"></script>
+
+</body>
+</html>

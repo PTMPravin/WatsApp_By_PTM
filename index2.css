@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+/* .screen {
+    display: none;
+}
+
+.active {
+    display: block;
+    width: 100%;
+    height: 100%;
+} */
+
+.contacts-div{
+    float:left;
+    background:rgb(182, 247, 182);
+    width: 577px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-save-div {
+    float:left;
+    background:rgb(241, 245, 241);
+    width: 617px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    float:left;
+    background: palegreen;
+    width: 671px;
+    height:100%;
+}
+
+.user-login-message-div {
+    max-width: 400px;
+}
+.user-login {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    /* width: 80%; */
+    justify-content: center;
+    margin-top: 457px;
+    margin-left: 57px;
+    width: 477px;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#user-name {
+    width: 100% ;
+    height: 47px;
+    padding-left: 27px;
+}
+
+#mobile-number {
+    margin-top: 14px;
+    width: 100% ;
+    height: 47px;
+    padding-left: 27px;
+}
+
+#button-save {
+    margin-top: 27px;
+    height: 47px;
+    width: 77px;
+    font-weight: bold;
+    /* border: 2px solid rgb(224, 217, 217); */
+}       
+
+.user-message {
+    /* width: 100%; */
+    /* height: calc(100% - 100px); */
+    max-width: 400px;
+}
+
+.message-send {
+    /* width: 100%; */
+    /* height: 47px; */
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    /* max-width: 400px; */
+}
+
+.message-send input {
+    /* flex: 1; */
+    height: 47px;
+    font-size: 17px;
+    width: 579px;
+    /* max-width: 100%; */
+}
+
+.message-send button {
+    /* height: 100%; */
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(108, 241, 108);
+    font-weight: bold;
+    /* width: 400px; */
+    width: 88px;
+}
+
+/* .contacts {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.div-contacts {
+    margin-top: 77px;
+    margin-left: 47px;
+}
+
+.contacts-search-div input{
+    /* flex: 1; */
+    height: 37px;
+    /* font-size: 17px; */
+    width: 377px;
+    /* padding-left: 27px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* display: block; */
+}
+
+.contacts-search-div button {
+    margin-top: 27px;
+    height: 37px;
+    width: 77px;
+    /* width: 577px; */
+    justify-content: center ;
+    font-weight: bold;
+}
+
+.contacts {
+    margin-top: 27px;
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-style: italic; */
+    font-weight: bold;
+    color: rgb(243, 83, 55);
+    text-decoration: underline;
+}
+.contacts-Names {
+    margin-top: 27px;
+    margin-left: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contacts-Names p {
+    padding-top: 27px;
+}
+
+.contacts-Names-Borders {
+    /* border: 2px; */
+    box-sizing: content-box;
+    display: flex;
+}

@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: linear-gradient(#075E54 2%, black 50%);
+    height: 100vh;
+    width: 100%;
+}
+.wats-App {
+    /* background-color: palegreen; */
+    background-color: #2e4744;
+    height: 98%;
+    width: 98%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.ptag {
+    margin-top: 27px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    width: 100%;
+    margin: 27px 0px;
+    margin-top: 77%;
+}
+
+.form-input input {
+    width: 100%;
+    padding: 11px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.form-input button {
+    padding: 12px 22px;
+    background: rgb(250, 19, 2);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    margin-top: 17px;
+}
+
+#button-save-owner {
+    word-spacing: 2px;
+}
+
+.form-input button :hover {
+    background-color: rgb(238, 55, 9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contacts-div{
+    float:left;
+    /* background:#21302e; */
+    background-image: url(./Images/6.jpg);
+    /* background-color: RGB(39 52 67); */
+    /* background-color: RGB(7 94 84); */
+    width: 477px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-save-div {
+    float:left;
+    /* background: #21302e; */
+    width: 617px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 17px; */
+}
+
+.contacts-search-div input{
+    border-radius: 17px;
+    height: 37px;
+    width: 247px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 27px;
+    background-color: rgb(147, 153, 147);
+}
+
+.contacts-search-div button {
+    border-radius: 17px;
+    margin-top: 27px;
+    height: 37px;
+    width: 77px;
+    justify-content: center ;
+    font-weight: bold;
+    border: none;
+    margin-left: 2px;
+}
+
+#search-button {
+    background-color: rgb(85, 88, 85);
+}
+
+.contacts {
+    margin-top: 27px;
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(243, 83, 55);
+    text-decoration: underline;
+}
+.contacts-Names {
+    margin-top: 27px;
+    margin-left: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contacts-Names p {
+    padding-top: 27px;
+}
+
+.contacts-Names-Borders {
+    box-sizing: content-box;
+    display: flex;
+}
+
+.app {
+    float:left;
+    /* background: palegreen; */
+    background-color: #2e4744;
+    width: 677px;
+    height:100%;
+}
+
+.user-login-message-div {
+    max-width: 400px;
+}
+.user-login {
+    position: absolute;
+    justify-content: center;
+    margin-top: 457px;
+    margin-left: 57px;
+    width: 477px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* #user-name {
+    width: 100% ;
+    height: 47px;
+    padding-left: 27px;
+}
+
+#mobile-number {
+    margin-top: 14px;
+    width: 100% ;
+    height: 47px;
+    padding-left: 27px;
+}
+
+#button-save {
+    margin-top: 27px;
+    height: 47px;
+    width: 77px;
+    font-weight: bold;
+}        */
+
+.user-message {
+    max-width: 400px;
+}
+
+.message-send {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
+
+.message-send input {
+    height: 47px;
+    font-size: 17px;
+    width: 444px;
+    border-radius: 7px;
+    background-color: rgb(109, 114, 109);
+    border: none;
+    margin-left: 77px;
+}
+
+.message-send button {
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(31, 34, 31);
+    font-weight: bold;
+    width: 88px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 7px;
+}
+
+.not-show {
+    display: none;
+}
+
+.show {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.contacts-save-div {
+    float:right;
+    /* background-color: #2e4744; */
+    /* background-color: #208a7d; */
+    /* border: 2px solid black; */
+    /* display: flex; */
+    display: block;
+    /* background:rgb(241, 245, 241); */
+    width: 617px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-name {
+    /* width: 100% ; */
+    height: 47px;
+    padding-left: 27px;
+    display: block;
+    margin-left: 217px;
+}
+
+#mobile-number {
+    margin-top: 14px;
+    /* width: 100% ; */
+    height: 47px;
+    padding-left: 27px;
+    margin-left: 217px;
+}
+
+#button-save {
+    display: block;
+    margin-top: 27px;
+    height: 47px;
+    width: 77px;
+    font-weight: bold;
+    margin-left: 217px;
+    /* border: 2px solid rgb(224, 217, 217); */
+}
+
+.Border {
+    padding-top: 17%;
+    border: 2px solid black;
+    box-sizing: content-box;
+    height: 25%;
+    /*background-color: cadetblue; */
+    display: block;
+    margin-top: 347px;
+    border-radius: 77px;
+    /* background-color: black; */
+}
+
+.Icons-Buttons {
+    border: 2px solid black;
+    height: 47px;
+    width: 27%;
+    border-radius: 22px;
+    margin-top: 333px;
+    margin-left: 7px;
+    background-color: rgb(68, 67, 66);
+}
+
+.not-show-save-contacts {
+    display: none;
+}
+
+.show-save-contacts {
+    display: block;
+}
+
+.not-show-ID-Add-Contacts-Icons {
+    display: none;
+}
+
+.show-ID-Add-Contacts-Icons {
+    display: block;
+    color: palegreen;
+}
+
+.not-show-IN-To-Button {
+    display: none;
+}
+
+.show-IN-To-Button {
+    display: block;
+    color: rgb(241, 34, 19);
+}
